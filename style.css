@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://i.pinimg.com/1200x/29/5b/d8/295bd8c0a971add2b717506f5e20c19a.jpg); /* Si tienes fondo, ponlo aquí */
+    background-color: #fce4ec; /* Color de respaldo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.letter-window {
+    background: white;
+    padding: 30px;
+    border: 5px solid #ff8a80;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    
+    /* Esto hace que el recuadro crezca con el contenido pero tenga un límite */
+    width: 90%; 
+    max-width: 450px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat-img {
+    /* Ajustamos el tamaño del GIF para que siempre quepa */
+    width: 100%; 
+    max-width: 350px; /* Puedes subir este número si quieres que sea aún más grande */
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 60px;
+    width: 100%;
+}
+
+.btn {
+    width: 100px;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #ff8a80;
+    border-radius: 12px;
+    background: white;
+}
